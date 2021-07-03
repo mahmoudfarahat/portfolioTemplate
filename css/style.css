@@ -1,0 +1,254 @@
+
+.btn-nav{
+    background: linear-gradient(to left top,#ff2c9c,#ff287b,#ff395a,#ff5137,#ff6a00)  ;
+color: white;    
+    width: 120px;
+}
+.btn-nav:hover{
+    border: 1px solid #ff2c9c;
+    color: #ff2c9c;
+    background: white;  
+}
+
+.banner-h2{
+    color: #ff2c9c;
+    margin-top: 100px;
+}
+@media (max-width: 1200px) {
+    .banner-h1{
+         font-size: 40px !important;
+    }
+
+      
+  }
+   
+
+      
+   
+.banner-h1{
+    font-size: 60px;
+}
+
+.btn-banner-1{
+    background: linear-gradient(to left top,#ff2c9c,#ff287b,#ff395a,#ff5137,#ff6a00)  ;
+    color: white;
+    
+}
+.btn-banner-2{
+    color: #ff2c9c;
+    border: 1px solid #ff2c9c;
+}
+@media (max-width: 1300px) {
+    .btn-banner-2,.btn-banner-1{
+        margin-bottom: 30px;
+    }
+
+      
+  }
+  @media (max-width: 500px) {
+    .banner-img{
+       width: 355px;
+    }
+
+      
+  }
+  @media (max-width: 800px) {
+    .banner-img{
+       width: 500px;
+    }
+
+      
+  }
+  banner-img
+.btn-banner-1:hover{
+    color: #ff2c9c;
+    background: white;  
+    border: 1px solid #ff2c9c;
+}
+.btn-banner-2:hover{
+    color: white;
+    background: linear-gradient(to left top,#ff2c9c,#ff287b,#ff395a,#ff5137,#ff6a00)  ;
+}
+.container-2{
+    background-color: #f6f3f3;
+    padding: 30px 120px;
+}
+/*  */
+
+.services-style{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.services-style-p{
+    margin: 20px 350px;
+
+}
+/*  */
+
+.container-3{
+ 
+    padding: 30px 120px;
+}
+.Works-style{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.about-us-img{
+    height: 500px
+}
+.about-us-header{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.img-works-1,.img-works-2,.img-works-3,.img-works-4,.img-works-5,.img-works-6{
+   
+    
+    background-size: cover;
+    min-height: 400px;
+    width: 350px
+    
+}
+.img-works-1{ background: url(../images/studie2.jpg) no-repeat; }
+.img-works-2{  background: url(../images/studie3.jpg) no-repeat;}
+.img-works-3{ background: url(../images/studie4.jpg) no-repeat; }
+.img-works-4{ background: url(../images/studie5.jpg) no-repeat; }
+.img-works-5{ background: url(../images/studie6.jpg) no-repeat; }
+.img-works-6{ background: url(../images/studie2.jpg) no-repeat; }
+
+
+
+
+/*  */
+ 
+
+/*  */
+
+
+
+
+
+
+.contact{
+    background: linear-gradient(to left top,#ff2c9c,#ff287b,#ff395a,#ff5137,#ff6a00)!important;
+    height: 200px;
+}
+ 
+.btn-contact{
+    background-color: white;
+    color: #ff287b;
+    width: 190px;
+    height: 60px;
+}
+.btn-contact:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
+
+
+/*  */
+/* .container {
+    max-width: 960px;
+  } */
+  
+  /*
+   * Custom translucent site header
+   */
+  
+   .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  /*  */
+
+
+
+  @media (max-width: 1260px) {
+    .services-style-p{
+    margin: 0 30px ;   
+    margin-bottom: 10px;
+    }
+
+      
+  }
+
+  
+  @media (min-width: 992px) {
+    .about-us{
+        padding-left: 130px;
+    }
+
+      
+  }
+  @media (min-width: 1230px) {
+    .about-us{
+        padding-left: 50px;
+    }
+
+      
+  }
+ 
