@@ -98,7 +98,8 @@ color: white;
     font-size: 40px;
 }
 .about-us-img{
-    height: 500px
+    height: 500px;
+    
 }
 .about-us-header{
     font-weight: bold;
@@ -251,4 +252,15 @@ color: white;
 
       
   }
- 
+  @media (max-width: 500px) {
+    .container-3, .container-2 {
+      padding: 5px;
+    }
+.banner-img{
+  width: 250px;
+}
+      .containr-4{
+        padding: 50px;
+      
+      }
+  }
